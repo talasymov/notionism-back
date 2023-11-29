@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .page h1 {
+        @apply text-4xl;
+        @apply font-bold;
+    }
+    .page h2 {
+        @apply font-bold;
+        @apply text-3xl;
+    }
+
+    .page h3 {
+        @apply font-semibold text-2xl mt-5;
+    }
+
+    .page h4 {
+        @apply font-semibold text-lg mt-4;
+    }
+
+    .page h5 {
+        @apply font-semibold mt-3;
+    }
+
+    .page h6 {
+        @apply text-sm font-semibold mt-3;
+    }
+
+    .page ul {
+        @apply list-disc list-inside pl-2 py-2;
+    }
+    .page ol {
+        @apply list-decimal list-inside pl-2 py-2;
+    }
+
+    .page p {
+        @apply pt-1;
+    }
+
+    .page td p {
+        @apply pt-0;
+    }
+
+    .page pre {
+        @apply bg-gray-100 px-2 py-0.5 rounded my-1 whitespace-pre-wrap max-w-fit;
+    }
+
+    .page blockquote {
+        @apply border-l-2 border-gray-300 pl-4 py-1 my-2
+    }
+
+
+    .props a {
+        @apply underline font-mono mx-1;
+    }
+
+    .props h3 {
+        @apply text-xl;
+    }
+}
